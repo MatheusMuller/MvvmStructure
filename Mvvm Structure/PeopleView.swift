@@ -36,7 +36,6 @@ struct PeopleView: View {
                 Button("Remove First", action: { viewModel.removeFirst() })
             }
             .padding()
-            
         }
     }
 }
